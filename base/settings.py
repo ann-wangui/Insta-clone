@@ -172,5 +172,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 cloudinary.config( 
   cloud_name = "ann", 
   api_key = "656941885515644", 
-  api_secret = "YY5igLwW3kkB7lh8-1_TWtUdwlo" 
+  api_secret = "YY5igLwW3kkB7lh8-1_TWtUdwlo"
+
 )
+django_heroku.settings(locals())
